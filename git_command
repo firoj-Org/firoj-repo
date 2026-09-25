@@ -1,0 +1,34 @@
+Git HUb command
+
+git --vesion
+
+git init
+git status
+git add . 
+git add File_Name
+git cpmmit -m "your message" File_name
+git cpmmit -m "your message" 
+git config --global user.name "User_Name"
+git confg --global user.email  "EMAiL_ID" 
+git config --list
+git config --global --list
+git config --global --unset User_Name OR Email 
+git remote -v
+ git   remote add  Alias_Name https URLO F Repository
+git remote -v
+git push Alias_Name Branch_Name
+git push Alias_Name Branch_Name --force OR -f
+git commit -a -m "message " File_Name"
+git diff Commit_ID1 Commit_ID2
+git log -2
+git remote remove Alias_Name
+git Show CID
+
+git  show --pretty="" --name-only Commit_ID
+
+git rest 
+git clean -n
+git clean  -f
+
+git revert Commit_ID
+
